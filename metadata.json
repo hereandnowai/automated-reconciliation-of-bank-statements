@@ -1,0 +1,6 @@
+{
+  "name": "Automated Reconciliation of Bank Statements",
+  "description": "Automate the tedious process of reconciling bank statements with your internal financial records. This app automatically matches transactions, detects mismatches, highlights missing entries, and suggests corrections using smart data matching algorithms.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

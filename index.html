@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/favicon-logo-with-name.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HERE AND NOW AI - AutoMatch Reconciliation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'brand-primary': '#004040', // Teal
+            'brand-primary-dark': '#002f2f', // Darker Teal for hover
+            'brand-accent': '#FFDF00', // Yellow
+            'brand-text': '#004040', // Teal for text
+            'brand-subtext': '#42526e',
+            'status-success': '#00875a',
+            'status-warning': '#ffab00',
+            'status-danger': '#de350b',
+            'neutral-light': '#f4f5f7',
+          },
+        }
+      }
+    }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "recharts": "https://esm.sh/recharts@^3.0.2",
+    "@google/genai": "https://esm.sh/@google/genai@^1.7.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-neutral-light">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
